@@ -1,0 +1,171 @@
+.page {
+  max-width: 1600px;
+  min-width: 1100px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.nav__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  column-gap: 20px;
+  padding: 0;
+  margin: 8px 8px 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  max-width: 635px;
+  font-size: 62px;
+  font-weight: 500;
+  margin: 128px 0 0 0;
+  line-height: 76px;
+}
+
+.header__description {
+  max-width: 515px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 32px;
+}
+
+.header__image {
+  max-width: 636px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
+
+.staff {
+  background-image: url("../images/staff_picks_background.jpg");
+  padding: 100px 0 140px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.staff__title {
+  text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 400;
+  margin: 0 0 24px;
+  color: #ffffff;
+}
+
+.staff__subtitle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+  color: #ffffff;
+}
+
+.staff__cards {
+  display: flex;
+  max-width: 760px;
+  margin-top: 68px; /* quise hacerlo todo en una sola linea con margin: 68px auto 0, pero el revisor de la plataforma no me dejaba, me pedía un valor independiente*/
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: center; /* Aquí había puesto en valor space-around, pero tampoco me dejo subirlo, me hizo cambiarlo a center */
+  gap: 40px;
+  padding-left: 0;
+  /*padding: 68px 0 0; quite esto para hacerlo con el margin que me pide la página*/
+  list-style-type: none;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 32px 40px 20px 32px;
+  box-sizing: border-box;
+  height: 420px;
+  width: 360px;
+}
+
+.card__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card__text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.card__footer {
+  margin-top: auto;
+  margin-left: 0; /* de igual forma aquí no me dejo colocar el margin en una sola línea*/
+  margin-right: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #838383;
+}

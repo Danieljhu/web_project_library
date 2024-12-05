@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestros lectores</a
+              ><!--aquí había puesto de el id='#los-preferidos-de-nuestros-lectores' pero las pruebas automatizadas me hiceron cambiarlo-->
+            </li>
+            <li>
+              <a class="nav__link" href="#">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Hola, esta es la<br />biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos!<br />
+              Ven y amplía tus conocimientos sobre desarrollo, o simplemente ven
+              a trabajar o estudiar con nosotros.<br />¡Este es un lugar genial
+              para estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <!--aquí había puesto de el id='#los-preferidos-de-nuestros-lectores' pero las pruebas automatizadas me hiceron cambiarlo-->
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Steve Jobs: La biografía</h3>
+                <p class="card__text">
+                  Es un relato exhaustivo de la vida de Steve Jobs, el icónico
+                  fundador de Apple, que revolucionó múltiples industrias como
+                  la informática, la telefonía móvil, la música y el
+                  entretenimiento. Escrito por Walter Isaacson, este libro
+                  ofrece una mirada profunda y sin filtros a las experiencias
+                  personales y profesionales que moldearon la personalidad de
+                  Jobs.
+                </p>
+                <p class="card__footer">Walter Isaacson</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Yo, Robot</h3>
+                <p class="card__text">
+                  Yo, Robot" es una colección de relatos de ciencia ficción que
+                  explora la relación entre humanos y robots en un futuro
+                  tecnificado. Este libro introduce las Tres Leyes de la
+                  Robótica, principios éticos que guían el comportamiento de los
+                  robots. Cada historia plantea dilemas morales y lógicos,
+                  desafiando estos principios en escenarios complejos. Una obra
+                  clave en la ciencia ficción y en la reflexión sobre IA.
+                </p>
+                <p class="card__footer">Isaac Asimov</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Historia del tiempo: Del Big Bang a los agujeros negros
+                </h3>
+                <p class="card__text">
+                  Explora los orígenes y el destino del universo. El libro
+                  explica temas complejos como el Big Bang, los agujeros negros
+                  y la mecánica cuántica de forma accesible. Con reflexiones
+                  sobre el tiempo y el espacio, esta obra es una introducción
+                  fundamental a la cosmología y un clásico de la divulgación
+                  científica.
+                </p>
+                <p class="card__footer">Stephen Hawking</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">1984</h3>
+                <p class="card__text">
+                  1984" es una novela distópica de George Orwell que muestra un
+                  futuro gobernado por un régimen totalitario liderado por el
+                  Gran Hermano. En esta sociedad, el Partido controla todos los
+                  aspectos de la vida, suprime la libertad individual y manipula
+                  la realidad. A través del protagonista, Winston Smith, Orwell
+                  plantea una advertencia sobre los peligros del totalitarismo y
+                  la vigilancia extrema.
+                </p>
+                <p class="card__footer">George Orwell</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
