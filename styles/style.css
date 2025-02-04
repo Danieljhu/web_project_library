@@ -354,7 +354,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #1f1f1f;
+  background-color: #000000;
   padding: 60px 80px;
 }
 
@@ -400,8 +400,8 @@
   color: white;
   text-decoration: none;
   display: flex;
-  align-items: flex-start;
-  column-gap: normal;
+  align-items: center;
+  column-gap: 0cap;
 }
 
 .footer__social-icon {
