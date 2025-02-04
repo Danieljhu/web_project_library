@@ -22,16 +22,18 @@
             <li>
               <a class="nav__link" href="#staff"
                 >Los preferidos de nuestros lectores</a
-              ><!--aquí había puesto de el id='#los-preferidos-de-nuestros-lectores' pero las pruebas automatizadas me hiceron cambiarlo-->
+              >
             </li>
             <li>
               <a class="nav__link" href="#events">Eventos</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Conviértete en miembro</a>
+              <a class="nav__link" href="#conviertete-en-miembro"
+                >Conviértete en miembro</a
+              >
             </li>
             <li>
-              <a class="nav__link" href="#">Contactos</a>
+              <a class="nav__link" href="#contactos">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -60,7 +62,6 @@
 
       <main class="content">
         <section class="staff" id="staff">
-          <!--aquí había puesto de el id='#los-preferidos-de-nuestros-lectores' pero las pruebas automatizadas me hiceron cambiarlo-->
           <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
           <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
           <ul class="staff__cards">
@@ -177,7 +178,7 @@
               <p class="person__caption">Joan Feynman</p>
               <img
                 src="/images/person_feynman.png"
-                alt="fotografia de Joan Feynman"
+                alt="fotografia de de la astrónoma Joan Feynman"
                 class="person__image person__image_size_l"
               />
             </div>
@@ -185,14 +186,14 @@
               <p class="person__caption">Margaret Burbidge</p>
               <img
                 src="/images/person_burbidge.png"
-                alt="fotografia de Margaret Burbidge"
+                alt="fotografia de de la astrónoma Margaret Burbidge"
                 class="person__image person__image_size_m"
               />
             </div>
             <div class="person person_name_cannon">
               <img
                 src="/images/person_cannon.png"
-                alt="fotografia Annie Jump Cannon"
+                alt="fotografia de la astrónoma Annie Jump Cannon"
                 class="person__image person__image_size_m"
               />
               <p class="person__caption">Annie Jump Cannon</p>
@@ -200,7 +201,7 @@
             <div class="person person_name_mitchell">
               <img
                 src="/images/person_mitchell.png"
-                alt="fotografia Maria Mitchell"
+                alt="fotografia de la astrónoma Maria Mitchell"
                 class="person__image person__image_size_s"
               />
               <p class="person__caption">Maria Mitchell</p>
@@ -209,12 +210,115 @@
               <p class="person__caption">Jill Tarter</p>
               <img
                 src="/images/person_tarter.png"
-                alt="Fotografia de Jill Tarter"
+                alt="Fotografia de la astrónoma Jill Tarter"
                 class="person__image person__image_size_m"
               />
             </div>
           </div>
         </section>
+        <section class="membership" id="conviertete-en-miembro">
+          <h2 class="membership__title">
+            ¡Convertirse en miembro es muy fácil!
+          </h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Paso 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Completa el formulario de afiliación en línea o en persona.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Ven y recoge tu credencial de la biblioteca en la recepción.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Firma el envés de la tarjeta.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                ¡Disfruta de los increíbles beneficios de nuestra membresía!
+              </p>
+            </li>
+          </ul>
+        </section>
+        <footer class="footer" id="contactos">
+          <div class="footer__columns">
+            <div class="footer__column">
+              <img
+                src="/images/logo_white.svg"
+                alt="logo biblioteca triple Peaks"
+                class="footer__logo"
+              />
+            </div>
+            <div class="footer__column footer__column_content_hours">
+              <h2 class="footer__column-heading">Horario de apertura</h2>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  Lunes a viernes: 9 a.m. - 8 p.m.
+                </li>
+                <li class="footer__list-item">
+                  Sábados y domingos: 10 a.m. - 6 p.m.
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column footer__column_content_social">
+              <h2 class="footer__column-heading">Redes sociales</h2>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a class="footer__column-link" href="#"
+                    ><img
+                      src="/images/facebook_white.svg"
+                      alt="Logo Facebook"
+                      class="footer__social-icon"
+                    />Facebook</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__column-link" href="#"
+                    ><img
+                      src="/images/instagram_white.svg"
+                      alt="Logo Instagram"
+                      class="footer__social-icon"
+                    />Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="footer__copyright">© 2024 Daniel Rosales</p>
+        </footer>
       </main>
     </div>
   </body>
